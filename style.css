@@ -1,0 +1,156 @@
+/* Import Google Fonts (Roboto) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Reset some default margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* -------------------
+   NAVIGATION BAR
+------------------- */
+nav {
+  display: flex; /* inline layout */
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 1rem 2rem;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav div {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+/* -------------------
+   HERO SECTION
+------------------- */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to right, #00bcd4, #2196f3);
+  color: white;
+}
+
+.hero h1 {
+  margin-bottom: 2rem;
+}
+
+.hero img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* -------------------
+   ABOUT SECTION
+------------------- */
+.apropos {
+  padding: 2rem 3rem;
+  background: #fff;
+}
+
+.apropos h2 {
+  margin-bottom: 1rem;
+  color: #2196f3;
+}
+
+/* -------------------
+   WORK SECTION
+------------------- */
+.travail {
+  padding: 2rem 3rem;
+  background: #f0f4f8;
+}
+
+.travail h2 {
+  color: #00bcd4;
+  margin-bottom: 1rem;
+}
+
+.travail img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+/* -------------------
+   CV SECTION
+------------------- */
+.cv {
+  padding: 2rem 3rem;
+  background: #fff;
+}
+
+.cv h3, .cv h4 {
+  margin-top: 1rem;
+  color: #2196f3;
+}
+
+/* -------------------
+   FORM SECTION
+------------------- */
+form {
+  background: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #1976d2;
+}
